@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Etch-A-Sketch!</h1></header>
+    <main>
+        <div class="controls">
+            <div class="input">
+                <input type="number" id="squares" name="squares" placeholder="(02-100)"
+                min="2" max="100" >
+                <button class = "submit">Submit</button>
+                <input type="color" name="color" id="color"  value="#FFB6C1">
+            </div>
+            <button class="reset">RESET</button>
+        </div>
+        <div class="grid">
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

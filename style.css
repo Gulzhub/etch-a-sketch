@@ -1,0 +1,103 @@
+/* RESET */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    /* max-width: 100%; */
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+a {
+    color: inherit;
+    text-decoration: unset;
+}
+
+body {
+    background-color: black;
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+
+
+.grid {
+    border: 8px solid grey;
+    padding: 1px;
+    width: 593px;
+    height: 593px;
+    display: grid;
+    /* grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr); */
+    /* gap: 1px; */
+}
+
+.grid-item {
+  background-color: white;
+  /* width: 35px;
+  height: 35px; */
+}
+
+.reset {
+    width: 6rem;
+    margin-bottom: 10px;
+
+}
+.reset:hover {
+    scale: 1.2;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.controls{
+    display: flex;
+    justify-content: space-between;
+}
