@@ -21,7 +21,7 @@ Just swirl around your mouse to get a trail of color.
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- CSS Grid
 - Flexbox
 - vanilla Javascript
 
